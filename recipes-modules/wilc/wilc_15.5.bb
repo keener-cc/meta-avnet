@@ -11,9 +11,9 @@ SRC_URI = "git://github.com/linux4sam/linux-at91.git;protocol=git;branch=${BRANC
            file://0001-ultra96-modifications-15.5.patch \
            "
 
-# Tag: wilc_linux_15_3_1
+# Tag: wilc_linux_15_5_0
 SRCREV = "f828d684531f354f0ca6fcd2cdf12c8251410cba"
-BRANCH = "master"
+BRANCH = "linux-5.10-at91"
 
 DEPENDS += "virtual/kernel"
 
